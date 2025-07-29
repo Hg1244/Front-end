@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <style>
+        #navbar {
+            display:flex;
+            justify-content:space-around;
+            width: 100vw;
+            height: 7vh;
+            align-items: center;
+            background-color: blue;
+            position: sticky;
+            top: 0;
+        }
+         #left{
+            width: 25%;
+            color: wheat;
+            display: flex;
+            justify-content: space-around;
+        }
+        #right{
+            width: 25%;
+            color: wheat;
+            display: flex;
+            justify-content: space-around;
+        }
+        #gr{
+            width: 100vw;
+            height: 50vh;
+            display: grid;
+            grid-template-columns: 100px 200px;
+            column-gap: 200px;
+        }
+
+        #navbar1{
+            width: 100vw;
+            height: 220vh;
+            background-color: blueviolet;
+            display: block;
+        }
+        #navbar1left{
+            height: calc(100vh - 7vh); /* Full height minus navbar */
+            width:20%;
+            background-color: brown;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            top: 7vh;
+            margin-left: 1px;
+
+        }
+        #navbar1center {
+    margin-left: 20%; /* Space for left sidebar */
+    margin-right: 20%; /* Space for right sidebar */
+    width: 55%;
+    height: 220vh;
+    background-color: aquamarine;
+    padding: 2%;
+           }
+
+        #navbar1right{
+            height: calc(100vh - 7vh); /* Full height minus navbar */
+            width: 20%;
+            background-color:bisque;
+            padding: 10px;
+            position: fixed;
+            right: 0;
+            top: 7vh;
+        }
+    </style>
+<body>
+    <div id="navbar">
+        <div id="left">
+            <p>docs</p>
+            <p>example</p>
+            <p>icons</p>
+            <p>themes</p>
+            <p>blog</p>
+        </div>
+        <input type=search placeholder="search">
+        <div id="right">
+            <p>docs</p>
+            <p>example</p>
+            <p>icons</p>
+            <p>themes</p>
+            <p>blog</p>
+        </div>
+    </div>
+    <div id="navbar1">
+        <div id="navbar1left">
+        <p> Getting started</p>
+        <p> Download</p>
+        <p> Contents</p>
+        <p> Browsers & devices</p>
+        <p> JavaScript</p>
+        <p> Webpack</p>
+        <p> Accessibility</p>   
+        <p>RFS</p>
+        <p>RTL</p>
+        <p>Contribute</p>
+        <p>Customize</p>
+        <p>Sass</p>
+        <p>Options</p>
+        <p>Color</p>
+        <p>Color modes</p>
+     </div>
+    <div id="navbar1center">
+    <p><h1>Get started with Bootstrap</h1></p>
+    <p>Bootstrap is a powerful,
+         feature-packed frontend toolkit. 
+         Build anything—from prototype to production—in minutes.</p>
+    <p>Get started by including Bootstrap’s production-ready CSS 
+        and JavaScript via CDN without the need for any build steps.
+         See it in practice with this Bootstrap CodePen demo.</p>
+    <p><h1>Download</h1></p>
+    <p>Download Bootstrap to get the compiled CSS and 
+        JavaScript, source code, or include it with your
+         favorite package managers like npm, RubyGems, and more.</p>
+    <p><h1>Compiled CSS and JS </h1></p>
+    <p>Download ready-to-use compiled code for 
+        Bootstrap v5.3.7 to easily drop into your project, which includes:
+Compiled and minified CSS bundles (see CSS files comparison)
+Compiled and minified JavaScript plugins (see JS files comparison)
+This doesn’t include documentation, source files, 
+or any optional JavaScript dependencies like Popper.</p>
+<p><h1>Contribute</h1></p>
+<p>Help develop Bootstrap with our documentation build scripts and tests.</p>
+<p><h1>Tooling setup </h1></p>
+<p>This doesn’t include documentation, source files, 
+or any optional JavaScript dependencies like Popper alignment so that use the sticky flex etc</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deserunt nemo labore voluptatibus consectetur sequi a doloremque autem aspernatur dignissimos, soluta cumque eius, esse officiis hic sit corporis corrupti libero.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet hic itaque eum, culpa voluptate harum obcaecati reiciendis perferendis doloremque rerum aperiam atque commodi tempore voluptatem odit. Unde, magni repellat. Doloribus repellendus amet, consequuntur exercitationem non placeat voluptatum obcaecati soluta neque atque ipsa harum porro molestiae rem alias sapiente temporibus, dolore, dolorem nihil perspiciatis voluptatibus laborum molestias. Veritatis voluptatem ipsam sunt, non odio, inventore id enim eveniet consequuntur error possimus rem deleniti! Facilis laboriosam amet, quae inventore deserunt illo sapiente placeat odit nam dolores asperiores iusto vel facere labore, officiis voluptatem nobis deleniti et sit qui, molestias beatae? Provident, veniam et?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quasi aut pariatur et architecto dignissimos repudiandae omnis unde iusto assumenda est facere, sed, sunt sequi, in enim vero neque at? Ea modi, facere saepe non voluptates, consequatur sequi veniam mollitia quia distinctio fugiat veritatis eum laudantium incidunt numquam esse cumque illum obcaecati architecto est ipsum ratione? Omnis repudiandae consectetur illo est? Labore eius tenetur expedita blanditiis tempora sapiente mollitia aut totam, pariatur eaque aperiam adipisci! Qui neque quas magni sit sapiente, id temporibus quibusdam architecto. Quidem ea earum, optio rem accusamus iusto mollitia ipsam nemo, commodi temporibus, atque nobis quam!</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem iste vitae ab voluptatibus iusto accusantium at dolorum quisquam eos facere quam, modi, rem mollitia cupiditate quod quo error voluptate adipisci voluptatem corporis in dolor incidunt quas? Exercitationem commodi, vitae temporibus earum quia totam nam eaque facere dicta natus voluptates ratione modi deleniti beatae iure fugit aperiam, eveniet, enim est dolore doloribus consectetur? Harum, provident asperiores! Id sapiente cupiditate consequuntur magni minus vel mollitia quibusdam provident dolorum delectus aperiam eius libero reprehenderit illo ex corrupti nostrum laborum quisquam magnam sequi debitis sit, inventore atque ratione. Neque ducimus tempore incidunt laudantium illum, perferendis non sed autem animi ipsum natus at?</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eos repellat est sequi laboriosam, vero magnam, placeat quisquam temporibus cupiditate amet cum officiis dolore consectetur quis animi nulla beatae facere</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis inventore nostrum laboriosam deserunt optio maiores nemo ut eveniet soluta, ullam amet rem harum sapiente iste suscipit? Libero pariatur sequi quidem.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum at, molestias totam temporibus nam perspiciatis suscipit numquam repudiandae laudantium beatae libero quam modi sint doloribus voluptate!  </p>
+</div>
+<div id="navbar1right">
+<p><h1>On this page</h1></p>
+        <p>Quick start</p>
+        <p>CDN links</p>
+        <p>Next steps</p>
+        <p>Js components</p>
+        <p>important globals</p>
+        <p>HTML5 doctype</p>
+        <p>Viewport meta</p>
+        <p>Box-sizing</p>
+        <p>Reboot</p>
+        <p>community</p>
+        <p>Quick start</p>
+        <p>CDN links</p>
+        <p>Next steps</p>
+        <p>Js components</p>
+        <p>important globals</p>
+        <p>HTML5 doctype</p>
+       
+      
+
+
+
+    </div>
+    </div>
+
+
+</html>

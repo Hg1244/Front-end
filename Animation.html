@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/* #bg1{
+    height:10vh;
+    width:50vw;
+    background-color:brown;
+    box-shadow: 45px 25px 35px 25px yellow;
+} */
+#button{
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    background-color: blue;
+    transition: 3s all;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 5px 5px 5px 5px green;
+    font-weight: 800;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+li{
+    list-style: lower-latin;
+}
+p{
+   word-break: break-all;
+}
+@keyframes example1 {
+    0%{
+        background-color: aqua;
+    }
+    20%{
+        background-color: red;
+        transition-duration: 2s;
+        transform : rotate(40deg);
+    }
+    50%{
+        background-color: brown;
+        translate: translatey(200px);
+    }
+    100%{
+        background-color: blanchedalmond;
+        transform: translatex(200px);
+    }
+}
+
+#d2{
+    height: 10vh;
+    width: 100vw;
+    background-color: blue;
+    animation-name: example1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+</style>
+<body>
+    <div id="bg1">
+    </div>
+    <button>click me</button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Name</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+           <td>Hello</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>Home</li>
+         <li>Home</li>
+        <li>Home</li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo consequatur a et, eum ut assumenda aperiam atque reiciendis iste enim excepturi error soluta deleniti quos neque quisquam impedit hic aut quia maxime commodi totam eveniet repudiandae. Qui est repudiandae aliquam commodi voluptatum atque deserunt velit perferendis eum! Distinctio, veritatis veniam! Dolore quasi consequuntur dignissimos a adipisci ad, atque illum sequi commodi deleniti quam ipsa est quas labore doloremque, eum similique, voluptates placeat assumenda sit architecto reiciendis ab. Velit blanditiis sequi amet ducimus qui quos dolorum hic fugit illum delectus molestias cumque nulla et natus cupiditate dignissimos fuga accusantium, reiciendis ex laudantium at esse excepturi? Temporibus aperiam, inventore mollitia architecto placeat voluptas iusto corporis itaque totam illum fugiat autem eveniet. Assumenda!</p>
+<div id="d2"></div>
+
+</body>
+</html>

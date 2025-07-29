@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 113%;
+            height: 15vh;
+            background-color: black;
+        }
+        #left {
+            display: flex;
+            align-items: center;
+            gap: 20px; /* spacing between elements */
+        }
+        #navbar h1, #navbar p {
+            color: white;
+        }
+        input[type="text"] {
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: none;
+            outline: none;
+        }
+        #maingrid{
+         width: 110vw;
+         height: 100vh;
+        background-color:rgb(208, 183, 231);
+       display:flex;
+       margin-left: 0;
+    align-items: center;
+    justify-content: space-around;
+    }
+        #grid1{
+        width: 35%;
+        height:80vh;
+        background-color:white;
+        display: grid;
+        grid-template-columns: 150px 150px;
+         margin-left: 10px;
+        align-items: center;
+        justify-content: space-around;
+        }
+        #grid2{
+        width: 35%;
+        height:80vh;
+        background-color:white;
+        display: grid;
+        grid-template-columns: 150px 150px;
+         margin-left: 10px;
+        align-items: center;
+        justify-content: space-around;
+        }
+        #grid3{
+        width: 35%;
+        height:80vh;
+        background-color:white;
+        display: grid;
+        grid-template-columns: 150px 150px;
+         margin-left: 10px;
+        align-items: center;
+        justify-content: space-around;
+        }
+        #grid4{
+         width: 35%;
+        height:80vh;
+        background-color:white;
+        display: grid;
+        grid-template-columns: 150px 150px;
+         margin-left: 10px;
+        align-items: center;
+        justify-content: space-around;   
+        }
+        .gr{
+            text-align: center;
+        }
+        p{
+            font-size: small;
+            font-size: initial;
+        }
+        .title{
+            grid-column: span 2;
+            font-size: x-small;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="left">
+        <h1>AMAZON.COM</h1>
+        <p>Home Appliances</p>
+        <p>Digital Items</p>
+        <p>Clothes</p>
+        <input type="text" placeholder="search">
+        </div>
+    </div>
+    <div id="maingrid">
+    <div id="grid1">
+    <div class="title"><h1>Home Appliances|Upto 25% offer</h1></div>
+    <div class="gr"><img src="kitchen essential.avif" alt="kitchen" width="150" height="150"><p>Home essenetial</p></div>
+    <div class="gr"><img src="cooker1.jpeg" alt="kitchen" width="150" height="150"><p>Home essenetial</p></div>
+    <div class="gr"><img src="cooker2.jpg" alt="kitchen" width="150" height="150"><p>Home essenetial</p></div>
+    <div class="see-offers">
+   <a href="#">See all offers</a>
+   </div>
+   </div>
+    <div id="grid2">
+     <div class="title"><h1>Digital items|Upto 25% offer</h1></div>
+    <div class="gr"><img src="mobile2.png" alt="mobiles" width="150" height="150"><p>Digital</p></div>
+    <div class="gr"><img src="mobiles1.jpeg" alt="digital" width="150" height="150"><p>Mobiles</p></div>
+    <div class="gr"><img src="mobiles1.jpeg" alt="mobiles" width="150" height="150"><p>Mobiles</p></div>
+    <div class="see-offers">
+   <a href="#">See all offers</a>
+   </div>
+   </div>
+   <div id="grid3">
+    <div class="gr"><img src="kurta set.png" alt="Clothes" width="150" height="150"><p> Women fav</p></div>
+    <div class="gr"><img src="cotton set.jpg" alt="clothes" width="150" height="150"><p>women comfort</p></div>
+    <div class="gr"><img src="saree1.png" alt="clothes" width="150" height="150"><p>women elegant</p></div>
+    <div class="see-offers">
+   <a href="#">See all offers</a>
+   </div>
+   </div>
+   <div id="grid4">
+    <div class="gr"><img src="furnitures.jpg" alt="furnituress" width="150" height="150"><p>Furnituress</p></div>
+    <div class="gr"><img src="download (1).jpeg" alt="Sofa" width="150" height="150"><p>sofaa</p></div>
+    <div class="gr"><img src="download.jpeg" alt="mobiles" width="150" height="150"><p>table</p></div>
+    <div class="see-offers">
+   <a href="#">See all offers</a>
+   </div>
+   </div> 
+   </div>  
+   </div>
+    </div>
+
+
+
+
+</div>
+</body>
+</html>
