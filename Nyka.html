@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyka</title>
+    <style>
+        #navbar {
+            width: 100vw;
+            height: 10vh;
+            background-color: black;
+            display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            gap: 20px; /* space between items */
+        }
+        #navbar1{
+            width: 100vw;
+            height: 10vh;
+            background-color: blue;
+            display: flex;
+            gap: 60px;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 20px;
+          }
+           #navbar1 input {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            font-size: 14px;
+            height: 30px;
+            margin-left: 10px;
+        }
+
+        #navbar1 input::placeholder {
+            color: gray;
+        }
+        #signin-btn{
+            padding: 8px 16px; 
+            border:white;
+            box-sizing: 10px;
+            border-radius: 20px;
+            font-size: medium;
+            height: 30px;
+            margin-left:5px;
+            background-color: pink;
+        }
+        #signin-btn input::placeholder{
+            color:white
+        }
+          
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <span>Get help |</span>  
+        <span>Store and events |</span>  
+        <span>Gift card |</span>
+        <span>Help</span>
+    </div>
+        <div id="navbar1">
+            <span>NYKAA</span>
+            <span>CATEGORIES</span>
+            <span>BRANDS</span>
+            <span>LUXE</span>
+            <span>NYKAA FSHION</span>
+            <span>BEAUTY FASHION</span>
+           <input type=search placeholder="Search on Nykaa"/>   
+         
+           <button id="signin-btn">sign in</button>
+    
+        </div>
+</body>
+</html>
